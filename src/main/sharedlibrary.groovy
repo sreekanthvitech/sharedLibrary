@@ -2,8 +2,10 @@
 pipeline{
 agent any
 stages{
- stage("Greeting"){
-    greeting("Welcome to Shared Library")
+  stage("Greeting"){
+     step{
+        greeting("Welcome to Shared Library")
+    }
  }
 }
 }//pipeline
