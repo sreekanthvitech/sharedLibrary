@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                 greeting("Welcome to Shared Library")
+                 //greeting("Welcome to Shared Library")
             }
         }
     }
