@@ -1,4 +1,4 @@
 def call(name){
 
-    echo "The greeting name {name}"
+    echo "The greeting name ${name}"
 }
